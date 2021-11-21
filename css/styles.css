@@ -90,6 +90,8 @@ img {
   color: var(--second-logo-text-color);
 
   margin-right: 93px;
+
+  outline: none;
 }
 
 .header-logo:hover,
@@ -115,6 +117,8 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
+
+  outline: none;
 }
 
 .header-item:not(:last-child) {
@@ -135,6 +139,8 @@ img {
 
   display: flex;
   align-items: center;
+
+  outline: none;
 }
 
 .header-contact-list-item:not(:last-child) {
@@ -198,6 +204,8 @@ img {
   border-color: transparent;
 
   padding: 6px 22px;
+
+  outline: none;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -272,7 +280,6 @@ img {
 /* -----------HERO FIRST PAGE------------ */
 
 .main-section {
-  background-color: #2f303a;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -287,6 +294,10 @@ img {
 }
 
 .main-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
   width: 200px;
   height: 50px;
   background-color: var(--accent-color);
@@ -297,6 +308,8 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: transparent;
+
+  outline: none;
 }
 
 .main-btn:hover,
@@ -494,6 +507,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  outline: none;
 }
 
 .team-sotial-icon {
@@ -535,8 +550,8 @@ img {
 .clients-list-item {
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
+  /* border: 1px solid #afb1b8;
+  border-radius: 4px; */
 }
 .clients-list-item + .clients-list-item {
   margin-left: 30px;
@@ -548,20 +563,26 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: #afb1b8;
+
+  outline: none;
 }
 
 .clients-icon {
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
-.clients-list-item:hover,
-.clients-list-item:focus {
+.clients-link:hover,
+.clients-link:focus {
   border-color: var(--accent-color);
 }
 
-.clients-list-item:hover .clients-icon,
-.clients-list-item:focus .clients-icon {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
   fill: var(--accent-color);
+  /* border-color: var(--accent-color); */
 }
 
 /* -----------------FOOTER--------------- */
@@ -581,6 +602,8 @@ img {
 
   display: block;
   margin-bottom: 20px;
+
+  outline: none;
 }
 
 .footer-logo:hover,
@@ -614,6 +637,8 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+
+  outline: none;
 }
 
 .contacts-link-item:not(:last-child) {
@@ -673,6 +698,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  outline: none;
 }
 
 .footer-sotial-icon {
